@@ -1,0 +1,215 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pg web site </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/31ef1d630b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section id="header">
+  <nav>
+      <div class="nav-logo">
+          <a href="index.html"><img src="logo1.png" alt="photo" height="100px" width="100px"></a>
+      </div>
+      <div class="nav-links" id="nav-links">   
+           <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about section.html">ABOUT</a></li>
+              <li><a href="#">FACILITIES</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+         </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showmenu()"></i>
+     </nav>
+  <div class="textbox">
+      <h2>P.U Girl's Paying Guest Srevices  </h2>
+      <p> Feel like home</p>
+      <a href="" class="hello">Visit Us For More</a>
+ </div>
+</section>
+
+<!-------service section  -------->
+<section class="service">
+     <h1>Our Service</h1>
+     <p>Same like your home </p>
+    <div class="row">
+        <div class="service-col">
+            <img src="wifi.jpg"wifi">
+            <div class="layer">
+                <h3>24hrs Internet Service</h3>
+            </div>
+
+        </div>
+        <div class="service-col">
+            <img src="water.jpg" alt="wifi">
+            <div class="layer">
+                <h3>24hrs Water Service</h3>
+            </div>
+
+        </div>
+        <div class="service-col">
+            <img src="food.jpg" alt="wifi" width="300px">
+            <div class="layer">
+                <h3>Hygienic and healthy food</h3>
+            </div>
+
+        </div>
+        <div class="service-col">
+            <img src="eletricity.jpg" alt="wifi">
+            <div class="layer">
+                <h3>24hrs Electricity Service</h3>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<!--------service section end -->
+
+
+
+
+<!----------------testimonial-section-->
+
+<section class="testimonial-section">
+    <h1>What Our Student Says</h1>
+    <div class="rpw">
+        <div class="testimonial-col">
+            <img src="photo1.png" alt="">
+            <div class="commment-a">
+                <p>The rooms at pu girl paying guest services are spacious, clean, and well-maintained. 
+                    The furniture is modern and comfortable, and the attention to detail in room setup is impressive. 
+                    I've always felt cozy and at home here.</p>
+                     <h3>Priya thapa </h3>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-0"></i>
+                     
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="photo2.png" alt="">
+            <div class="commment-a">
+                <p>The location of pu girl paying guest services  is ideal.
+                     It's in close proximity to major transportation hubs, markets, and educational institutions, making it incredibly convenient for students and working professionals. 
+                     I've saved a lot of time commuting thanks to this strategic location.</p>
+                     <h3>Anusha Giri</h3>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="photo3.png" alt="">
+            <div class="commment-a">
+                <p>One of the standout features of pu girls paying services is the sense of community. 
+                   Regular events and activities are organized to foster social connections among residents.
+                   It's not just a place to live; it's a place to make friends and create lasting memories.</p>
+                     <h3>Roshani Sharma </h3><i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------testimonal section end ------------->
+
+
+
+
+<!--------------------call to action ---------------->
+
+<section class="cta">
+    <h1>Enroll  for booking the sits</h1>
+    <a href="">Contact Us</a>
+</section>
+<!---------------------call toaction end -->
+
+
+
+
+
+<!-------------------footer section-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>  P.U Girl's Paying Guest House. <br> 
+         we are your next home . Heyginc and healthy food and many more service same as your home<br>
+         </P>
+      <div class="socials">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a><br>
+          <p> Desgin By <i class="fas fa-heart"></i> Prashreet Sapkota </p><br>
+       <div class="copy">
+          &copy; 2023 PG Paying Guest Services.inc
+        </div>
+        </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------java script of menu-->
+
+<script>
+ var naulinks = document.getElementById("nav-links")
+
+function showmenu(){
+    naulinks.style.right = "0";
+}
+function hidemenu(){
+    naulinks.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
